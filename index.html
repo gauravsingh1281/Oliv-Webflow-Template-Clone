@@ -5,10 +5,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oliv Template Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+    <main class="w-full h-full bg-white  px-16">
+        <!-- header section -->
+        <header class="w-full h-[600px] ">
+            <!-- desktop navbar -->
+            <nav class="bg-white w-full h-24 flex justify-between items-center">
+                <div class="flex justify-center items-center gap-3">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c3fed42405e70f33df42ee_logo.svg"
+                        alt="logo-img" class="w-[110px]">
+                    <a href="#" class="px-3 py-1 bg-[#F8EDE3] hover:bg-[#F1E3D6] rounded-full">We are hiring!</a>
+
+                </div>
+                <div class="flex justify-center items-center gap-10">
+                    <div id="nav-link" class="flex justify-center items-center gap-6">
+                        <a href="#" class="relative">
+                            <div>Work</div>
+                            <div class="nav-link-underline w-[0%] h-[1px] bg-black absolute -bottom-[5px] left-0"></div>
+                        </a>
+                        <a href="#" class="relative">
+                            <div>Services</div>
+                            <div class="nav-link-underline w-[0%] h-[1px] bg-black absolute -bottom-[5px] left-0"></div>
+                        </a>
+                        <a href="#" class="relative">
+                            <div>About</div>
+                            <div class="nav-link-underline w-[0%] h-[1px] bg-black absolute -bottom-[5px] left-0"></div>
+                        </a>
+                        <a href="#" class="relative">
+                            <div>Blog</div>
+                            <div class="nav-link-underline w-[0%] h-[1px] bg-black absolute -bottom-[5px] left-0"></div>
+                        </a>
+                        <a href="#" class="relative">
+                            <div>Pages <i class="ri-arrow-drop-down-line"></i></div>
+                            <div class="nav-link-underline w-[0%] h-[1px] bg-black absolute -bottom-[5px] left-0"></div>
+                        </a>
+                        <a href="#">
+                            <div>Cart <span class=" px-[6px] bg-[#F8EDE3] rounded-full">0</span></div>
+
+                        </a>
+                    </div>
+                    <button
+                        class="px-4  py-2 bg-white border-[1px] border-black rounded-full hover:bg-black hover:text-white">Get
+                        in Touch</button>
+                </div>
+            </nav>
+            <hr>
+            <div class="w-full  flex justify-center items-start p-20 flex-col gap-6">
+                <h1 class="font-normal text-7xl ">Building Brands, One <br>Success Story at a Time.</h1>
+                <p class="font-light text-2xl ">Create a Brand That Resonates: We Can Help You <br> Define and
+                    Communicate Your
+                    Unique Message.</p>
+                <button
+                    class="px-8  py-3 bg-white border-[1px] border-black rounded-full hover:bg-black hover:text-white mt-8">Our
+                    Services</button>
+            </div>
+        </header>
+        <!-- marquee animation container -->
+        <section class="w-full h-24  overflow-hidden flex justify-center items-center">
+            <div id="marquee-container" class="w-full  flex justify-center items-center ">
+                <div id="marquee-content" class=" flex justify-center items-center gap-16">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce6a0062cf2d279e35_client-logo-02.svg"
+                        alt="marquee-content-img1">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418af3b2b766cebaba02d_client-logo-01.svg"
+                        alt="marquee-content-img2">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce9f1b45e141bf28b5_client-logo-03.svg"
+                        alt="marquee-content-img3">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce2c404b364300ba31_client-logo-04.svg"
+                        alt="marquee-content-img4">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418cea9dabef95143b0c1_client-logo-06.svg"
+                        alt="marquee-content-img5">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418cea9dabe252e43b0c0_client-logo-07.svg"
+                        alt="marquee-content-img6">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce6a0062cf2d279e35_client-logo-02.svg"
+                        alt="marquee-content-img1">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418af3b2b766cebaba02d_client-logo-01.svg"
+                        alt="marquee-content-img2">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce9f1b45e141bf28b5_client-logo-03.svg"
+                        alt="marquee-content-img3">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce2c404b364300ba31_client-logo-04.svg"
+                        alt="marquee-content-img4">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418cea9dabef95143b0c1_client-logo-06.svg"
+                        alt="marquee-content-img5">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418cea9dabe252e43b0c0_client-logo-07.svg"
+                        alt="marquee-content-img6">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce6a0062cf2d279e35_client-logo-02.svg"
+                        alt="marquee-content-img1">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418af3b2b766cebaba02d_client-logo-01.svg"
+                        alt="marquee-content-img2">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce9f1b45e141bf28b5_client-logo-03.svg"
+                        alt="marquee-content-img3">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce2c404b364300ba31_client-logo-04.svg"
+                        alt="marquee-content-img4">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418cea9dabef95143b0c1_client-logo-06.svg"
+                        alt="marquee-content-img5">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418cea9dabe252e43b0c0_client-logo-07.svg"
+                        alt="marquee-content-img6">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce6a0062cf2d279e35_client-logo-02.svg"
+                        alt="marquee-content-img1">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418af3b2b766cebaba02d_client-logo-01.svg"
+                        alt="marquee-content-img2">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce9f1b45e141bf28b5_client-logo-03.svg"
+                        alt="marquee-content-img3">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce2c404b364300ba31_client-logo-04.svg"
+                        alt="marquee-content-img4">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418cea9dabef95143b0c1_client-logo-06.svg"
+                        alt="marquee-content-img5">
+                    <img src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418cea9dabe252e43b0c0_client-logo-07.svg"
+                        alt="marquee-content-img6">
+                </div>
+
+            </div>
+        </section>
+    </main>
     <script src="./script.js"></script>
 </body>
 
