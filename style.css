@@ -9,14 +9,21 @@ body {
   width: 100%;
 }
 
-@keyframes underline {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 100%;
-  }
+#nav-link .link::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  bottom: -5px;
+  transition: width 0.5s linear;
 }
+
+#nav-link .link:hover::after {
+  width: 100%;
+}
+
 @keyframes marquee {
   from {
     transform: translateX(0);
@@ -26,12 +33,6 @@ body {
   }
 }
 
-#nav-link a:hover .nav-link-underline {
-  animation-name: underline;
-  animation-duration: 0.5s;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-}
 #marquee-container {
   animation-name: marquee;
   animation-timing-function: linear;
