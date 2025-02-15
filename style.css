@@ -53,3 +53,7 @@ body {
   animation-duration: 20s;
   animation-iteration-count: infinite;
 }
+
+.work-img {
+  transition: all ease 0.5s;
+}
