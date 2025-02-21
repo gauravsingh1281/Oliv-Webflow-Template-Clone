@@ -11,8 +11,8 @@
         href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap"
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
@@ -53,7 +53,7 @@
                         in Touch</button>
                 </div>
             </nav>
-            <hr>
+            <div class="w-full h-[1px] bg-gray-200"></div>
             <div class="w-full  flex justify-center items-start p-20 flex-col gap-6">
                 <h1 class="font-normal text-7xl ">Building Brands, One <br>Success Story at a Time.</h1>
                 <p class="font-light text-2xl ">Create a Brand That Resonates: We Can Help You <br> Define and
@@ -174,8 +174,8 @@
 
         <!-- Work Section -->
         <section class="w-full ">
-            <p class="mb-4">Work</p>
-            <hr>
+            <p class="mb-4 uppercase">Work</p>
+            <div class="w-full h-[1px] bg-gray-200"></div>
             <div class="w-full h-24 flex justify-between items-center">
                 <h1 class="text-5xl font-light">Selected Work</h1>
                 <a href="#"
@@ -249,7 +249,55 @@
 
             </div>
         </section>
+        <!-- Our values Section -->
+        <section class="w-full">
+            <p class="uppercase mb-4 mt-20">Our Values</p>
+            <div class="w-full h-[1px] bg-gray-200"></div>
+            <div class=" w-full mt-16 grid lg:grid-cols-3  auto-rows-[400px] gap-10">
+                <div class="flex justify-between items-start flex-col p-8 bg-[#F1F5F9] rounded-md">
+                    <div class="flex items-start flex-col gap-2 ">
+                        <p class="uppercase">Services</p>
+                        <h3 class="text-2xl">Our Approach to Branding.</h3>
+                    </div>
+                    <button class="bg-black px-6 py-3 text-white rounded-full">
+                        About &Oslash;liv <i class="ri-arrow-right-up-line"></i>
+                    </button>
+                </div>
+                <div class="flex justify-between items-start flex-col p-8 bg-[#F1F6F5] rounded-md">
 
+                    <p class="uppercase  lg:w-[60%]">Helping Brands
+                        Stand Out</p>
+
+                    <p class="text-2xl font-light ">Bold Moves,<br>Big Impact.</p>
+                </div>
+                <div class="flex justify-between items-start flex-col p-8 bg-[#F8F8F8] rounded-md">
+
+                    <p class="uppercase lg:w-[60%]">How We Work
+                        with Our Clients</p>
+                    <p class="text-2xl font-light ">Honesty is the
+                        <br>Best Policy.
+                    </p>
+                </div>
+                <div class="flex justify-between items-start flex-col p-8 bg-[#F8F8F8] rounded-md">
+                    <p class="uppercase">Collaboration is Key</p>
+                    <p class="text-2xl font-light ">Building Strong
+                        <br>Partnerships.
+                    </p>
+                </div>
+                <div class="flex justify-between items-start flex-col p-8 bg-[#F8EDE3] rounded-md">
+                    <p class="uppercase">Our Approach</p>
+                    <p class="text-2xl font-light ">Achieving<br>
+                        Real Results.
+                    </p>
+                </div>
+                <div class="flex justify-between items-start flex-col p-8 bg-[#FFFAE7] rounded-md">
+                    <p class="uppercase ">Our Philosophy</p>
+                    <p class="text-2xl font-light ">Building Trust,
+                        <br>Not Pitching.
+                    </p>
+                </div>
+            </div>
+        </section>
     </main>
     <script src="./script.js"></script>
 </body>
