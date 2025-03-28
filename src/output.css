@@ -603,11 +603,23 @@
   .h-6 {
     height: calc(var(--spacing) * 6);
   }
+  .h-7 {
+    height: calc(var(--spacing) * 7);
+  }
+  .h-8 {
+    height: calc(var(--spacing) * 8);
+  }
+  .h-12 {
+    height: calc(var(--spacing) * 12);
+  }
   .h-24 {
     height: calc(var(--spacing) * 24);
   }
   .h-\[1px\] {
     height: 1px;
+  }
+  .h-\[2px\] {
+    height: 2px;
   }
   .h-\[70px\] {
     height: 70px;
@@ -642,6 +654,12 @@
   .w-6 {
     width: calc(var(--spacing) * 6);
   }
+  .w-7 {
+    width: calc(var(--spacing) * 7);
+  }
+  .w-12 {
+    width: calc(var(--spacing) * 12);
+  }
   .w-\[30\%\] {
     width: 30%;
   }
@@ -665,6 +683,9 @@
   }
   .transform {
     transform: var(--tw-rotate-x) var(--tw-rotate-y) var(--tw-rotate-z) var(--tw-skew-x) var(--tw-skew-y);
+  }
+  .cursor-pointer {
+    cursor: pointer;
   }
   .resize {
     resize: both;
@@ -755,6 +776,9 @@
   .bg-\[\#F1F6F5\] {
     background-color: #F1F6F5;
   }
+  .bg-\[\#F2F2F2\] {
+    background-color: #F2F2F2;
+  }
   .bg-\[\#F8EDE3\] {
     background-color: #F8EDE3;
   }
@@ -764,6 +788,9 @@
   .bg-\[\#FFFAE7\] {
     background-color: #FFFAE7;
   }
+  .bg-amber-200 {
+    background-color: var(--color-amber-200);
+  }
   .bg-black {
     background-color: var(--color-black);
   }
@@ -772,6 +799,21 @@
   }
   .bg-white {
     background-color: var(--color-white);
+  }
+  .p-1 {
+    padding: calc(var(--spacing) * 1);
+  }
+  .p-1\.5 {
+    padding: calc(var(--spacing) * 1.5);
+  }
+  .p-2 {
+    padding: calc(var(--spacing) * 2);
+  }
+  .p-3 {
+    padding: calc(var(--spacing) * 3);
+  }
+  .p-4 {
+    padding: calc(var(--spacing) * 4);
   }
   .p-5 {
     padding: calc(var(--spacing) * 5);
@@ -952,6 +994,27 @@
       }
     }
   }
+  .hover\:bg-\[\#F2F2F2\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #F2F2F2;
+      }
+    }
+  }
+  .hover\:bg-\[\#d3cece\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #d3cece;
+      }
+    }
+  }
+  .hover\:bg-\[\#dbdbdb\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #dbdbdb;
+      }
+    }
+  }
   .hover\:bg-black {
     &:hover {
       @media (hover: hover) {
@@ -964,6 +1027,11 @@
       @media (hover: hover) {
         color: var(--color-white);
       }
+    }
+  }
+  .md\:auto-rows-auto {
+    @media (width >= 48rem) {
+      grid-auto-rows: auto;
     }
   }
   .md\:grid-cols-2 {
